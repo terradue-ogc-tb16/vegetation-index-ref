@@ -1,0 +1,8 @@
+*.tif
+*.vrt
+*.geojson
+.ipynb_checkpoints
+__pycache__
+stac-results
+catalog.json
+INDEX_S2*
