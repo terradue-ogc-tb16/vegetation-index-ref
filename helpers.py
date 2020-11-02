@@ -11,7 +11,7 @@ def set_env():
     
     if not 'PREFIX' in os.environ.keys():
     
-        os.environ['PREFIX'] = '/opt/anaconda/envs/env_vi_ref'
+        os.environ['PREFIX'] = '/opt/anaconda/envs/env_vegetation_index_ref'
 
         os.environ['GDAL_DATA'] =  os.path.join(os.environ['PREFIX'], 'share/gdal')
         os.environ['PROJ_LIB'] = os.path.join(os.environ['PREFIX'], 'share/proj')
